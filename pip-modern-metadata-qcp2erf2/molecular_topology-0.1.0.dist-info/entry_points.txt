@@ -1,0 +1,3 @@
+[console_scripts]
+molecular-topology = molecular_topology.__main__:main
+researchos = researchos.__main__:main
