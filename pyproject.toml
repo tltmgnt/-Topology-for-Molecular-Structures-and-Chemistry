@@ -5,13 +5,14 @@ build-backend="setuptools.build_meta"
 name="molecular-topology"
 version="0.1.0"
 requires-python=">=3.10"
-description="Explicit molecular graph research with replayable research evidence"
+description="Explicit molecular graphs, MolTop descriptors and spatial linking with research evidence"
 readme="README.md"
 license={text="Apache-2.0"}
 [project.scripts]
 molecular-topology="molecular_topology.__main__:main"
+moltop="moltop.__main__:main"
 researchos="researchos.__main__:main"
 [tool.setuptools.packages.find]
-include=["molecular_topology*","researchos*"]
+include=["molecular_topology*","moltop*","researchos*"]
 [tool.setuptools.package-data]
 researchos=["*.json"]

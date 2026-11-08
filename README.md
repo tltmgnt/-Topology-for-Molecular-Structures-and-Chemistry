@@ -1,5 +1,21 @@
 # Explicit molecular graph research
 
+The distribution includes two separate interfaces: `molecular-topology` for the
+explicit neutral atom/integer-bond workflow below, and `moltop` for unweighted graph
+descriptors and numerical linking of supplied spatial curves. Their JSON contracts
+and output behavior differ; neither interface silently substitutes for the other.
+See [MolTop methods, examples and numerical limits](docs/MOLTOP.md).
+
+```sh
+moltop examples/benzene.json --output output/benzene.json
+moltop examples/hopf-link.json --output output/hopf-link.json
+```
+
+MolTop's `--output` replaces a report file; the `molecular-topology` evidence bundle
+commands below create new directories exclusively. Spatial linking is a numerical
+estimate on supplied curves, not a certified molecular or knot invariant. The
+ResearchOS pilot runs both synthetic toolkits while retaining missing external gates.
+
 Working offline Python research prototype. **Bounded explicit neutral atom/integer-bond graphs. Computes component count, graph cycle rank, explicit-atom formula, within-component Wiener sum and permutation-invariant local descriptor counts; checks declared valence upper bounds. No implicit hydrogens, aromaticity, charges, stereochemistry, canonical isomorphism, energetics, synthesis, molecular validity or medical inference.**
 
 ## Run
