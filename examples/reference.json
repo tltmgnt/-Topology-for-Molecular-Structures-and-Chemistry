@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "atoms": [
+    {
+      "id": "o",
+      "element": "O"
+    },
+    {
+      "id": "h1",
+      "element": "H"
+    },
+    {
+      "id": "h2",
+      "element": "H"
+    }
+  ],
+  "bonds": [
+    {
+      "source": "o",
+      "target": "h1",
+      "order": 1
+    },
+    {
+      "source": "o",
+      "target": "h2",
+      "order": 1
+    }
+  ]
+}
