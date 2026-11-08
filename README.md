@@ -85,3 +85,7 @@ python -m unittest discover -s tests -v
 Tests cover analytic graph descriptors, fused cycles and bridges, disconnected graphs, invalid input, the Hopf link, quadrature refinement, orientation and rigid-motion invariance, contact rejection, and CLI JSON export. GitHub Actions installs the package and runs tests and CLI examples on Python 3.10, 3.12, and 3.13.
 
 Licensed under Apache 2.0; see [LICENSE](LICENSE).
+
+## ResearchOS / TECT assurance layer
+
+This repository includes the shared v0.1 research controller, a scoped executable domain pilot, replayable evidence/decision bundles, adversarial regression probes, and explicit unassured outcomes. See [the workflow](docs/RESEARCHOS.md), [versioned semantics](docs/TECT_SPEC.md), and [research-program traceability](docs/TECT_RESEARCH_PLAN.md). Existing domain results retain their documented limits. No claim state authorizes external or clinical execution.
