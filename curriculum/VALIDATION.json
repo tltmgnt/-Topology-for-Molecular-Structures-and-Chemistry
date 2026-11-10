@@ -1,0 +1,22 @@
+{
+  "case_count": 14,
+  "command": "python curriculum/lab.py --verify",
+  "exit_code": 0,
+  "expected_sha256": "fbd56209bd18c627345256e5aaa62bc65a29bcf1b5e2059bc08887df565ac3a3",
+  "lab_sha256": "c6a383b31247cf16eef42575a32cdbd341c005a709f48458d344c5dd9b4e78cb",
+  "python": "3.12.14",
+  "repository": "tltmgnt/-Topology-for-Molecular-Structures-and-Chemistry",
+  "schema_version": 1,
+  "scope": "Local synthetic curriculum validation on the recorded source snapshot; not complete repository CI, learning outcomes, independent scientific reproduction or deployment approval",
+  "source_and_fixture_sha256": {
+    "examples/benzene.json": "500cbab06c305b7bdcd303a865c130c8dca25aae647eccda5bf58b1f164b1bd1",
+    "examples/hopf-link.json": "6d9392011a61fa32b522cdfa01391ad3898dd05f417d7d4b917e174a1c5193fc",
+    "examples/reference.json": "929d5bfa53358f5df26bef8bb8bd9b0ea87d1edecf334edf8d2699472449d36d",
+    "molecular_topology/__init__.py": "9e72cb3b4c2ce36dcdb0d094c3599fefc9d214cab541106d5e37dfed132664c3",
+    "molecular_topology/__main__.py": "074f8a2b6e016acb5e9bde12809ff6652b45f06bfc802eb784ae9160e97282ac",
+    "molecular_topology/analysis.py": "d88358ba5a9c3b81b564fcac1a35f11b5f5ec3251b3dbfb2de90d1a078129e39",
+    "molecular_topology/io.py": "a2c9daca91107ad0dc0996d0fcdc53c0d288fb7f6b96508a9d75a257216bfb02"
+  },
+  "source_base_commit": "7b1e4ad99b01f2a1d2cd07267df3841cc2ddebfc",
+  "wrong_expectation_exit_code": 1
+}

@@ -1,0 +1,160 @@
+{
+  "case_count": 14,
+  "cases": [
+    {
+      "actual": "H2O",
+      "case": "water formula",
+      "expected": "H2O",
+      "passed": true
+    },
+    {
+      "actual": 4,
+      "case": "water pair distances: 1+1+2",
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "actual": {
+        "H|O:1": 2,
+        "O|H:1,H:1": 1
+      },
+      "case": "water local neighborhoods",
+      "expected": {
+        "H|O:1": 2,
+        "O|H:1,H:1": 1
+      },
+      "passed": true
+    },
+    {
+      "actual": 1,
+      "case": "triangle cycle space: 3-3+1",
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "actual": 0,
+      "case": "double bond is one graph edge",
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "actual": "C",
+      "case": "isolated carbon gets no inferred hydrogen",
+      "expected": "C",
+      "passed": true
+    },
+    {
+      "actual": [
+        "0"
+      ],
+      "case": "upper bound exceeded",
+      "expected": [
+        "0"
+      ],
+      "passed": true
+    },
+    {
+      "actual": "ValueError",
+      "case": "boolean is not integer bond order",
+      "expected": "ValueError",
+      "passed": true
+    },
+    {
+      "actual": "ValueError",
+      "case": "reversed duplicate rejected",
+      "expected": "ValueError",
+      "passed": true
+    },
+    {
+      "actual": {
+        "atom_count": 3,
+        "bond_count": 2,
+        "clinical_use_authorized": false,
+        "components": [
+          [
+            "0",
+            "1",
+            "2"
+          ]
+        ],
+        "cycle_rank": 0,
+        "domain": "chemistry",
+        "execution_authorized": false,
+        "explicit_atom_formula": "H2O",
+        "local_descriptor_counts": {
+          "H|O:1": 2,
+          "O|H:1,H:1": 1
+        },
+        "schema_version": 1,
+        "scope": "Explicit atoms and integer bonds only; no implicit hydrogens, aromaticity, charges, stereochemistry, canonical isomorphism, energies, chemical feasibility, synthesis or therapeutic inference. Valence checks are declared upper bounds, not chemical validation.",
+        "status": "PASS",
+        "valence_upper_bound_violations": [],
+        "within_component_wiener_sum": 4
+      },
+      "case": "record ordering leaves report unchanged",
+      "expected": {
+        "atom_count": 3,
+        "bond_count": 2,
+        "clinical_use_authorized": false,
+        "components": [
+          [
+            "0",
+            "1",
+            "2"
+          ]
+        ],
+        "cycle_rank": 0,
+        "domain": "chemistry",
+        "execution_authorized": false,
+        "explicit_atom_formula": "H2O",
+        "local_descriptor_counts": {
+          "H|O:1": 2,
+          "O|H:1,H:1": 1
+        },
+        "schema_version": 1,
+        "scope": "Explicit atoms and integer bonds only; no implicit hydrogens, aromaticity, charges, stereochemistry, canonical isomorphism, energies, chemical feasibility, synthesis or therapeutic inference. Valence checks are declared upper bounds, not chemical validation.",
+        "status": "PASS",
+        "valence_upper_bound_violations": [],
+        "within_component_wiener_sum": 4
+      },
+      "passed": true
+    },
+    {
+      "actual": {
+        "C|C:1,C:1": 6
+      },
+      "case": "same one-hop descriptors do not imply isomorphism",
+      "expected": {
+        "C|C:1,C:1": 6
+      },
+      "passed": true
+    },
+    {
+      "actual": [
+        1,
+        2
+      ],
+      "case": "descriptor collision has different component counts",
+      "expected": [
+        1,
+        2
+      ],
+      "passed": true
+    },
+    {
+      "actual": false,
+      "case": "no execution authority",
+      "expected": false,
+      "passed": true
+    },
+    {
+      "actual": false,
+      "case": "no clinical authority",
+      "expected": false,
+      "passed": true
+    }
+  ],
+  "schema_version": 1,
+  "scope": "Synthetic curriculum checks only",
+  "status": "PASS"
+}
