@@ -1,5 +1,14 @@
 # Explicit molecular graph research
 
+<!-- research-workbench:start -->
+## Research workbench
+
+[Open this repository's private workbench](https://tltmgnt-topology-for-molecular-structures-and-chemistry.troturn31.chatgpt.site) · [All repository workbenches](https://tltmgnt-research-workbenches.troturn31.chatgpt.site)
+
+The hosted interface requires ChatGPT sign-in and access to the private Site. It supports browser-local research records, evidence fingerprints and workspace export. It is a prototype: no live AI model or repository backend is connected, and it does not establish external validation.
+<!-- research-workbench:end -->
+
+
 The distribution includes two separate interfaces: `molecular-topology` for the
 explicit neutral atom/integer-bond workflow below, and `moltop` for unweighted graph
 descriptors and numerical linking of supplied spatial curves. Their JSON contracts
